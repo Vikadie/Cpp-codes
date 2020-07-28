@@ -1,0 +1,2 @@
+C:\Users\Viktor\source\repos\basicSintaxisFuncsArraysExercises\Debug\basicSintaxisFuncsArraysExercises.exe
+C:\Users\Viktor\source\repos\basicSintaxisFuncsArraysExercises\Debug\basicSintaxisFuncsArraysExercises.pdb

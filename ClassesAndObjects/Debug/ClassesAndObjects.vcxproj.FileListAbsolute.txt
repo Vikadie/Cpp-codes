@@ -1,0 +1,2 @@
+C:\Users\Viktor\source\repos\ClassesAndObjects\Debug\ClassesAndObjects.exe
+C:\Users\Viktor\source\repos\ClassesAndObjects\Debug\ClassesAndObjects.pdb

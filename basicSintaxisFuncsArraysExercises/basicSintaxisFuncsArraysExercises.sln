@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "basicSintaxisFuncsArraysExercises", "basicSintaxisFuncsArraysExercises.vcxproj", "{83BBD272-4ACF-47F2-9919-83606532357D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83BBD272-4ACF-47F2-9919-83606532357D}.Debug|x64.ActiveCfg = Debug|x64
+		{83BBD272-4ACF-47F2-9919-83606532357D}.Debug|x64.Build.0 = Debug|x64
+		{83BBD272-4ACF-47F2-9919-83606532357D}.Debug|x86.ActiveCfg = Debug|Win32
+		{83BBD272-4ACF-47F2-9919-83606532357D}.Debug|x86.Build.0 = Debug|Win32
+		{83BBD272-4ACF-47F2-9919-83606532357D}.Release|x64.ActiveCfg = Release|x64
+		{83BBD272-4ACF-47F2-9919-83606532357D}.Release|x64.Build.0 = Release|x64
+		{83BBD272-4ACF-47F2-9919-83606532357D}.Release|x86.ActiveCfg = Release|Win32
+		{83BBD272-4ACF-47F2-9919-83606532357D}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {38474025-4D10-422B-BDA6-5B6E768B6785}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,2 @@
+C:\Users\Viktor\source\repos\basicArraysVetors pb9\Debug\basicArraysVetors pb9.exe
+C:\Users\Viktor\source\repos\basicArraysVetors pb9\Debug\basicArraysVetors pb9.pdb

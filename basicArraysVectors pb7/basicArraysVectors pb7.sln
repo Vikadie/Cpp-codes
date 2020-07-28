@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "basicArraysVectors pb7", "basicArraysVectors pb7.vcxproj", "{42B0AAA6-56EE-415C-9064-A4A7C44B5D8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42B0AAA6-56EE-415C-9064-A4A7C44B5D8B}.Debug|x64.ActiveCfg = Debug|x64
+		{42B0AAA6-56EE-415C-9064-A4A7C44B5D8B}.Debug|x64.Build.0 = Debug|x64
+		{42B0AAA6-56EE-415C-9064-A4A7C44B5D8B}.Debug|x86.ActiveCfg = Debug|Win32
+		{42B0AAA6-56EE-415C-9064-A4A7C44B5D8B}.Debug|x86.Build.0 = Debug|Win32
+		{42B0AAA6-56EE-415C-9064-A4A7C44B5D8B}.Release|x64.ActiveCfg = Release|x64
+		{42B0AAA6-56EE-415C-9064-A4A7C44B5D8B}.Release|x64.Build.0 = Release|x64
+		{42B0AAA6-56EE-415C-9064-A4A7C44B5D8B}.Release|x86.ActiveCfg = Release|Win32
+		{42B0AAA6-56EE-415C-9064-A4A7C44B5D8B}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {271A70A9-CCA9-45A0-A034-A8F2D9F91DB3}
+	EndGlobalSection
+EndGlobal

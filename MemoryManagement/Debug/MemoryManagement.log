@@ -1,0 +1,4 @@
+﻿  SerializeMain.cpp
+C:\Users\Viktor\source\repos\MemoryManagement\Task 5 - Serialize_Skeleton\05. Serialize\Skeleton\Company.h(46,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Viktor\source\repos\MemoryManagement\Task 5 - Serialize_Skeleton\05. Serialize\Skeleton\Company.h(49,9): warning C4018: '<': signed/unsigned mismatch
+  MemoryManagement.vcxproj -> C:\Users\Viktor\source\repos\MemoryManagement\Debug\MemoryManagement.exe

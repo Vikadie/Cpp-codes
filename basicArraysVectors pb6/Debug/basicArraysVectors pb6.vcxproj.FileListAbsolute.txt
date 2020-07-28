@@ -1,0 +1,2 @@
+C:\Users\Viktor\source\repos\basicArraysVectors pb6\Debug\basicArraysVectors pb6.exe
+C:\Users\Viktor\source\repos\basicArraysVectors pb6\Debug\basicArraysVectors pb6.pdb

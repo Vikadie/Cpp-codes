@@ -1,0 +1,2 @@
+C:\Users\Viktor\source\repos\Exercise_on_Pointers\Debug\Exercise_on_Pointers.exe
+C:\Users\Viktor\source\repos\Exercise_on_Pointers\Debug\Exercise_on_Pointers.pdb

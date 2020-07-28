@@ -1,0 +1,2 @@
+C:\Users\Viktor\source\repos\basicFuncArraysVectors pb1\Debug\basicFuncArraysVectors pb1.exe
+C:\Users\Viktor\source\repos\basicFuncArraysVectors pb1\Debug\basicFuncArraysVectors pb1.pdb

@@ -1,0 +1,2 @@
+C:\Users\Viktor\source\repos\StrStreamsAndLinearContainers\Debug\StrStreamsAndLinearContainers.exe
+C:\Users\Viktor\source\repos\StrStreamsAndLinearContainers\Debug\StrStreamsAndLinearContainers.pdb

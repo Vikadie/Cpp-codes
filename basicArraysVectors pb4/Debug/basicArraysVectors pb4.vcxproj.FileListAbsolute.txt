@@ -1,0 +1,2 @@
+C:\Users\Viktor\source\repos\basicArraysVectors pb4\Debug\basicArraysVectors pb4.exe
+C:\Users\Viktor\source\repos\basicArraysVectors pb4\Debug\basicArraysVectors pb4.pdb

@@ -1,0 +1,6 @@
+﻿  Find.cpp
+  Main.cpp
+  Generating Code...
+Main.obj : error LNK2005: "class std::basic_istream<char,struct std::char_traits<char> > & __cdecl operator>>(class std::basic_istream<char,struct std::char_traits<char> > &,class Company &)" (??5@YAAAV?$basic_istream@DU?$char_traits@D@std@@@std@@AAV01@AAVCompany@@@Z) already defined in Find.obj
+Main.obj : error LNK2005: "class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,class Company const &)" (??6@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AAV01@ABVCompany@@@Z) already defined in Find.obj
+C:\Users\Viktor\source\repos\CppAdvanced01Reference\Debug\CppAdvanced01Reference.exe : fatal error LNK1169: one or more multiply defined symbols found

@@ -1,0 +1,2 @@
+C:\Users\Viktor\source\repos\Associative-Containers-and_STL-Algorithms\Debug\Associative-Containers-and_STL-Algorithms.exe
+C:\Users\Viktor\source\repos\Associative-Containers-and_STL-Algorithms\Debug\Associative-Containers-and_STL-Algorithms.pdb

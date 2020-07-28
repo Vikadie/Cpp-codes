@@ -1,0 +1,2 @@
+C:\Users\Viktor\source\repos\StringsAndStreams\Debug\StringsAndStreams.exe
+C:\Users\Viktor\source\repos\StringsAndStreams\Debug\StringsAndStreams.pdb

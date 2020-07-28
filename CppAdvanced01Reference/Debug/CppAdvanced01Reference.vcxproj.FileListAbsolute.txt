@@ -1,0 +1,2 @@
+C:\Users\Viktor\source\repos\CppAdvanced01Reference\Debug\CppAdvanced01Reference.exe
+C:\Users\Viktor\source\repos\CppAdvanced01Reference\Debug\CppAdvanced01Reference.pdb
