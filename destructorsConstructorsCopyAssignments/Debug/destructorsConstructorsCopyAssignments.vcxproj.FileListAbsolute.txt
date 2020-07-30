@@ -1,0 +1,2 @@
+C:\Users\Viktor\source\repos\destructorsConstructorsCopyAssignments\Debug\destructorsConstructorsCopyAssignments.exe
+C:\Users\Viktor\source\repos\destructorsConstructorsCopyAssignments\Debug\destructorsConstructorsCopyAssignments.pdb
