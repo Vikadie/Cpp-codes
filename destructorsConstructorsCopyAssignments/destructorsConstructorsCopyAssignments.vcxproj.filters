@@ -19,6 +19,15 @@
     <Filter Include="Source Files\02. RegisterOfThree">
       <UniqueIdentifier>{eca74def-1bca-404e-bf2a-5e905330be50}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\03. ArrayOfPinters">
+      <UniqueIdentifier>{0e94256b-a656-49fe-9310-0a5ecd08df9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\04. Words">
+      <UniqueIdentifier>{401332d0-85f4-4383-ac04-8582a24b3432}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\05. List">
+      <UniqueIdentifier>{9ed75288-41d7-476a-8b0c-41119435080f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="destructorsConstructorsCopyAssignments.cpp">
@@ -33,6 +42,18 @@
     <ClCompile Include="02. RegisterOfThree\Skeleton\Register.cpp">
       <Filter>Source Files\02. RegisterOfThree</Filter>
     </ClCompile>
+    <ClCompile Include="03. ArrayOfPointers\Skeleton\ArrayOfPointersMain.cpp">
+      <Filter>Source Files\03. ArrayOfPinters</Filter>
+    </ClCompile>
+    <ClCompile Include="04. Words\Skeleton\WordsMain.cpp">
+      <Filter>Source Files\04. Words</Filter>
+    </ClCompile>
+    <ClCompile Include="04. Words\Skeleton\Word.cpp">
+      <Filter>Source Files\04. Words</Filter>
+    </ClCompile>
+    <ClCompile Include="05. List\Skeleton\ListMain.cpp">
+      <Filter>Source Files\05. List</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="01. Register\Skeleton\Company.h">
@@ -46,6 +67,18 @@
     </ClInclude>
     <ClInclude Include="02. RegisterOfThree\Skeleton\Register.h">
       <Filter>Source Files\02. RegisterOfThree</Filter>
+    </ClInclude>
+    <ClInclude Include="03. ArrayOfPointers\Skeleton\Company.h">
+      <Filter>Source Files\03. ArrayOfPinters</Filter>
+    </ClInclude>
+    <ClInclude Include="03. ArrayOfPointers\Skeleton\ArrayOfPointers.h">
+      <Filter>Source Files\03. ArrayOfPinters</Filter>
+    </ClInclude>
+    <ClInclude Include="04. Words\Skeleton\Word.h">
+      <Filter>Source Files\04. Words</Filter>
+    </ClInclude>
+    <ClInclude Include="05. List\Skeleton\List.h">
+      <Filter>Source Files\05. List</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

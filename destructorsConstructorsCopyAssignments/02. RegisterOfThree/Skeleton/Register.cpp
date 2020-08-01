@@ -2,11 +2,11 @@
 #include <memory>
 
 static size_t num;
+//static std::shared_ptr<Register> sp;
 
 Register::Register(size_t numCompanies): 
 	companiesArray(new Company[numCompanies]), 
 	numAdded(numCompanies) {
-	std::shared_ptr<Company> sp(new Company[numCompanies]);
 	num = 0;
 }
 
@@ -20,6 +20,9 @@ void Register::add(const Company& c)
 
 Company Register::get(int companyId) const
 {
+	/*for (size_t i = 0; i < sp->numAdded; i++) {
+		if (sp->companiesArray[i].getId() == companyId) {
+			return sp->companiesArray[i];*/
 	for (size_t i = 0; i < this->numAdded; i++) {
 		if (this->companiesArray[i].getId() == companyId) {
 			return this->companiesArray[i];
@@ -28,16 +31,18 @@ Company Register::get(int companyId) const
 	return Company();
 }
 
-Register::~Register(){
-	delete[] this->companiesArray;
-}
+//Register::~Register(){
+//	delete[] this->companiesArray;
+//}
 
 Register& Register::operator=(const Register& other)
 {
+	
 	if (this != &other) {
 		this->numAdded = other.numAdded;
 		this->companiesArray = other.companiesArray;
 	}
+	//sp.reset(this);
 	return *this;
 }
 
