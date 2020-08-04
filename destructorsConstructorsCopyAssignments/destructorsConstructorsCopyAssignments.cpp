@@ -1,20 +1,89 @@
-// destructorsConstructorsCopyAssignments.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include <iostream>
+using namespace std;
 
-int main()
-{
-    std::cout << "Hello World!\n";
+template <typename T>
+class dll {
+private:
+    struct Node {
+        Node* prev;
+        Node* next;
+        T data;
+    };
+
+    Node* head;
+    Node* tail;
+
+public:
+    dll();
+    ~dll();
+
+    void insert(T value);
+
+    bool empty() const { return head == tail; };
+};
+
+template <typename T> dll<T>::dll() {
+    head = nullptr;
+    tail = head;
 }
 
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
+template <typename T> dll<T>::~dll() {
+    delete[] head;
+}
 
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
+template <typename T> void dll<T>::insert(T value) {
+    Node* node = new Node;
+    node->data = value;
+
+    // Case 1: There are no nodes yet
+    if (head == nullptr) {
+        head = node;
+        tail = head;
+        return;
+    }
+
+
+    // case 2 - inserting at the head of the list
+    if (node->data < head->data)
+    {
+        node->next = head;
+        head = node;
+        return;
+    }
+
+    // case 3 - inserting at the end of the list
+    if (node->data >= tail->data)
+    {
+        node->prev = tail;
+        tail->next = node;
+        tail = node;
+        return;
+    }
+
+    // general case - inserting into the middle
+    Node* probe = head;
+    while (probe && (node->data >= probe->data))
+    {
+        probe = probe->next;
+    }
+    if (probe)
+    {
+        node->next = probe;
+        node->prev = probe->prev;
+        probe->prev->next = node;
+        probe->prev = node;
+        return;
+    }
+
+    // error - we shouldnt' reach this point. If we did, it meant the list was out of order to begin with.
+    return;
+}
+
+int main() {
+    dll<int> list;
+    list.insert(10);
+    list.insert(20);
+    list.insert(15);
+    list.insert(30);
+    list.insert(5);
+}
