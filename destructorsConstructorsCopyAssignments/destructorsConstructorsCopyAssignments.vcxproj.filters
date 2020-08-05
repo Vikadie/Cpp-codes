@@ -54,6 +54,9 @@
     <ClCompile Include="05. List\Skeleton\ListMain.cpp">
       <Filter>Source Files\05. List</Filter>
     </ClCompile>
+    <ClCompile Include="05. List\Skeleton\My_List.cpp">
+      <Filter>Source Files\05. List</Filter>
+    </ClCompile>
     <ClCompile Include="05. List\Skeleton\List.cpp">
       <Filter>Source Files\05. List</Filter>
     </ClCompile>
