@@ -1,2 +1,2 @@
-﻿  List.cpp
-  destructorsConstructorsCopyAssignments.vcxproj -> C:\Users\Viktor\source\repos\destructorsConstructorsCopyAssignments\Debug\destructorsConstructorsCopyAssignments.exe
+﻿  Register.cpp
+C:\Users\Viktor\source\repos\destructorsConstructorsCopyAssignments\02. RegisterOfThree\Skeleton\Register.cpp : fatal error C1090: PDB API call failed, error code '3': C:\Users\Viktor\source\repos\destructorsConstructorsCopyAssignments\Debug\vc142.pdb

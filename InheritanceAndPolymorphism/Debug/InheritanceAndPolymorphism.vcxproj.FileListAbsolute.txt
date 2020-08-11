@@ -1,0 +1,2 @@
+C:\Users\Viktor\source\repos\InheritanceAndPolymorphism\Debug\InheritanceAndPolymorphism.exe
+C:\Users\Viktor\source\repos\InheritanceAndPolymorphism\Debug\InheritanceAndPolymorphism.pdb

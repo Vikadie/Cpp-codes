@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\01. Shapes">
+      <UniqueIdentifier>{c6244f27-7851-4f85-b9a5-a58c11707886}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\02. Aggregators">
+      <UniqueIdentifier>{a626f891-af02-4e2b-a875-1091da811c1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\03. TypedStream">
+      <UniqueIdentifier>{c1658ada-6bf9-4dfe-8b7f-ba13176d6516}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\04. Word">
+      <UniqueIdentifier>{831553b3-7b50-42e0-8c0c-6a6fac6b8453}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\05. Calculator">
+      <UniqueIdentifier>{75781c91-9096-43b2-a650-b5c39928479f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="InheritanceAndPolymorphism.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="01. Shape\Skeleton\Constants.cpp">
+      <Filter>Source Files\01. Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="01. Shape\Skeleton\ShapesMain.cpp">
+      <Filter>Source Files\01. Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="02. Aggregators\Skeleton\AggregatorsMain.cpp">
+      <Filter>Source Files\02. Aggregators</Filter>
+    </ClCompile>
+    <ClCompile Include="03. TypedStream\Skeleton\TypedStreamMain.cpp">
+      <Filter>Source Files\03. TypedStream</Filter>
+    </ClCompile>
+    <ClCompile Include="04. Word\Skeleton\WordSkeleton.cpp">
+      <Filter>Source Files\04. Word</Filter>
+    </ClCompile>
+    <ClCompile Include="05. Calculator\Skeleton\CalculatorMain.cpp">
+      <Filter>Source Files\05. Calculator</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="01. Shape\Skeleton\Circle.h">
+      <Filter>Source Files\01. Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="01. Shape\Skeleton\Constants.h">
+      <Filter>Source Files\01. Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="01. Shape\Skeleton\CoordinateSystemCenter.h">
+      <Filter>Source Files\01. Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="01. Shape\Skeleton\Rectangle.h">
+      <Filter>Source Files\01. Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="01. Shape\Skeleton\Shape.h">
+      <Filter>Source Files\01. Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="01. Shape\Skeleton\Vector2D.h">
+      <Filter>Source Files\01. Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="02. Aggregators\Skeleton\Aggregator.h">
+      <Filter>Source Files\02. Aggregators</Filter>
+    </ClInclude>
+    <ClInclude Include="02. Aggregators\Skeleton\SumAggregator.h">
+      <Filter>Source Files\02. Aggregators</Filter>
+    </ClInclude>
+    <ClInclude Include="02. Aggregators\Skeleton\AverageAggregator.h">
+      <Filter>Source Files\02. Aggregators</Filter>
+    </ClInclude>
+    <ClInclude Include="02. Aggregators\Skeleton\MinAggregator.h">
+      <Filter>Source Files\02. Aggregators</Filter>
+    </ClInclude>
+    <ClInclude Include="03. TypedStream\Skeleton\IntStream.h">
+      <Filter>Source Files\03. TypedStream</Filter>
+    </ClInclude>
+    <ClInclude Include="03. TypedStream\Skeleton\StringStream.h">
+      <Filter>Source Files\03. TypedStream</Filter>
+    </ClInclude>
+    <ClInclude Include="03. TypedStream\Skeleton\Vector2D.h">
+      <Filter>Source Files\03. TypedStream</Filter>
+    </ClInclude>
+    <ClInclude Include="03. TypedStream\Skeleton\VectorStream.h">
+      <Filter>Source Files\03. TypedStream</Filter>
+    </ClInclude>
+    <ClInclude Include="03. TypedStream\Skeleton\TypedStream.h">
+      <Filter>Source Files\03. TypedStream</Filter>
+    </ClInclude>
+    <ClInclude Include="04. Word\Skeleton\CommandInterface.h">
+      <Filter>Source Files\04. Word</Filter>
+    </ClInclude>
+    <ClInclude Include="04. Word\Skeleton\TextTransform.h">
+      <Filter>Source Files\04. Word</Filter>
+    </ClInclude>
+    <ClInclude Include="04. Word\Skeleton\Initialization.h">
+      <Filter>Source Files\04. Word</Filter>
+    </ClInclude>
+    <ClInclude Include="05. Calculator\Skeleton\CalculationEngine.h">
+      <Filter>Source Files\05. Calculator</Filter>
+    </ClInclude>
+    <ClInclude Include="05. Calculator\Skeleton\Division.h">
+      <Filter>Source Files\05. Calculator</Filter>
+    </ClInclude>
+    <ClInclude Include="05. Calculator\Skeleton\Extensions.h">
+      <Filter>Source Files\05. Calculator</Filter>
+    </ClInclude>
+    <ClInclude Include="05. Calculator\Skeleton\InputInterpreter.h">
+      <Filter>Source Files\05. Calculator</Filter>
+    </ClInclude>
+    <ClInclude Include="05. Calculator\Skeleton\MemoryManagement.h">
+      <Filter>Source Files\05. Calculator</Filter>
+    </ClInclude>
+    <ClInclude Include="05. Calculator\Skeleton\MultiplicationOperation.h">
+      <Filter>Source Files\05. Calculator</Filter>
+    </ClInclude>
+    <ClInclude Include="05. Calculator\Skeleton\Operation.h">
+      <Filter>Source Files\05. Calculator</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
