@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\01. Filters">
+      <UniqueIdentifier>{ce660cbe-07da-45f9-a0f8-4ef6db0ed456}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\02. IDs">
+      <UniqueIdentifier>{b0b30039-834b-49b1-b77b-5cf2341d9f50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\03. Files">
+      <UniqueIdentifier>{561ee154-9b96-4b2b-9298-b9df12e46173}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\04. Tree">
+      <UniqueIdentifier>{3fa30b85-98b6-4cd9-9a4a-4f53390d2281}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\05. Explorer">
+      <UniqueIdentifier>{13b0b5ba-431a-4a08-bd23-74c12f09cf38}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PureVirtualMembersAndMultipleInheritance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="01. Filters\Skeleton\FiltersMain.cpp">
+      <Filter>Source Files\01. Filters</Filter>
+    </ClCompile>
+    <ClCompile Include="02. IDs\Skeleton\Company.cpp">
+      <Filter>Source Files\02. IDs</Filter>
+    </ClCompile>
+    <ClCompile Include="02. IDs\Skeleton\IDsMain.cpp">
+      <Filter>Source Files\02. IDs</Filter>
+    </ClCompile>
+    <ClCompile Include="03. Files\Skeleton\FilesMain.cpp">
+      <Filter>Source Files\03. Files</Filter>
+    </ClCompile>
+    <ClCompile Include="04. Tree\Skeleton\TreeMain.cpp">
+      <Filter>Source Files\04. Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="05. Explorer\Skeleton\ExplorerMain.cpp">
+      <Filter>Source Files\05. Explorer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="01. Filters\Skeleton\Filter.h">
+      <Filter>Source Files\01. Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="03. Files\Skeleton\FileSystemObject.h">
+      <Filter>Source Files\03. Files</Filter>
+    </ClInclude>
+    <ClInclude Include="03. Files\Skeleton\FileSystemObjectsContainer.h">
+      <Filter>Source Files\03. Files</Filter>
+    </ClInclude>
+    <ClInclude Include="04. Tree\Skeleton\FileSystemObject.h">
+      <Filter>Source Files\04. Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="04. Tree\Skeleton\FileSystemObjectsContainer.h">
+      <Filter>Source Files\04. Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="05. Explorer\Skeleton\FileSystemObject.h">
+      <Filter>Source Files\05. Explorer</Filter>
+    </ClInclude>
+    <ClInclude Include="05. Explorer\Skeleton\FileSystemObjectsContainer.h">
+      <Filter>Source Files\05. Explorer</Filter>
+    </ClInclude>
+    <ClInclude Include="05. Explorer\Skeleton\Shortcuts.h">
+      <Filter>Source Files\05. Explorer</Filter>
+    </ClInclude>
+    <ClInclude Include="01. Filters\Skeleton\FilterFactory.h">
+      <Filter>Source Files\01. Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="02. IDs\Skeleton\Company.h">
+      <Filter>Source Files\02. IDs</Filter>
+    </ClInclude>
+    <ClInclude Include="02. IDs\Skeleton\HasInfo.h">
+      <Filter>Source Files\02. IDs</Filter>
+    </ClInclude>
+    <ClInclude Include="02. IDs\Skeleton\HasId.h">
+      <Filter>Source Files\02. IDs</Filter>
+    </ClInclude>
+    <ClInclude Include="03. Files\Skeleton\File.h">
+      <Filter>Source Files\03. Files</Filter>
+    </ClInclude>
+    <ClInclude Include="03. Files\Skeleton\Directory.h">
+      <Filter>Source Files\03. Files</Filter>
+    </ClInclude>
+    <ClInclude Include="03. Files\Skeleton\ByteContainer.h">
+      <Filter>Source Files\03. Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,2 @@
+C:\Users\Viktor\source\repos\PureVirtualMembersAndMultipleInheritance\Debug\PureVirtualMembersAndMultipleInheritance.exe
+C:\Users\Viktor\source\repos\PureVirtualMembersAndMultipleInheritance\Debug\PureVirtualMembersAndMultipleInheritance.pdb
