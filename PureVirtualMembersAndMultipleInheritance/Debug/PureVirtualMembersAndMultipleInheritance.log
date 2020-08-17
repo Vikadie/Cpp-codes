@@ -1,7 +1,2 @@
-﻿  FilesMain.cpp
-C:\Users\Viktor\source\repos\PureVirtualMembersAndMultipleInheritance\03. Files\Skeleton\File.h(7,34): error C2504: 'ByteContainer': base class undefined
-C:\Users\Viktor\source\repos\PureVirtualMembersAndMultipleInheritance\03. Files\Skeleton\File.h(12,15): error C3668: 'File::add': method with override specifier 'override' did not override any base class methods
-C:\Users\Viktor\source\repos\PureVirtualMembersAndMultipleInheritance\03. Files\Skeleton\File.h(14,17): error C3668: 'File::getSize': method with override specifier 'override' did not override any base class methods
-C:\Users\Viktor\source\repos\PureVirtualMembersAndMultipleInheritance\03. Files\Skeleton\File.h(10,45): error C2614: 'File': illegal member initialization: 'FileSystemObjectsContainer' is not a base or member
-C:\Users\Viktor\source\repos\PureVirtualMembersAndMultipleInheritance\03. Files\Skeleton\File.h(10,75): error C2614: 'File': illegal member initialization: 'FileSystemObject' is not a base or member
-C:\Users\Viktor\source\repos\PureVirtualMembersAndMultipleInheritance\03. Files\Skeleton\File.h(10,103): error C2614: 'File': illegal member initialization: 'ByteContainer' is not a base or member
+﻿  TreeMain.cpp
+  PureVirtualMembersAndMultipleInheritance.vcxproj -> C:\Users\Viktor\source\repos\PureVirtualMembersAndMultipleInheritance\Debug\PureVirtualMembersAndMultipleInheritance.exe

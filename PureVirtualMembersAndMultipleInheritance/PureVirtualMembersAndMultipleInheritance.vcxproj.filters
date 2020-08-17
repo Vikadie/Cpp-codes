@@ -98,5 +98,17 @@
     <ClInclude Include="03. Files\Skeleton\ByteContainer.h">
       <Filter>Source Files\03. Files</Filter>
     </ClInclude>
+    <ClInclude Include="04. Tree\Skeleton\File.h">
+      <Filter>Source Files\04. Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="04. Tree\Skeleton\Directory.h">
+      <Filter>Source Files\04. Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="04. Tree\Skeleton\ByteContainer.h">
+      <Filter>Source Files\04. Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="04. Tree\Skeleton\TreeView.h">
+      <Filter>Source Files\04. Tree</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
