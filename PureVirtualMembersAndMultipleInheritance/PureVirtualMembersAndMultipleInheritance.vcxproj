@@ -208,9 +208,15 @@
     <ClInclude Include="04. Tree\Skeleton\TreeView.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClInclude>
+    <ClInclude Include="05. Explorer\Skeleton\ByteContainer.h" />
+    <ClInclude Include="05. Explorer\Skeleton\Directory.h" />
+    <ClInclude Include="05. Explorer\Skeleton\Explorer.h" />
+    <ClInclude Include="05. Explorer\Skeleton\ExplorerMain.h" />
+    <ClInclude Include="05. Explorer\Skeleton\File.h" />
     <ClInclude Include="05. Explorer\Skeleton\FileSystemObject.h" />
     <ClInclude Include="05. Explorer\Skeleton\FileSystemObjectsContainer.h" />
     <ClInclude Include="05. Explorer\Skeleton\Shortcuts.h" />
+    <ClInclude Include="05. Explorer\Skeleton\TreeView.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

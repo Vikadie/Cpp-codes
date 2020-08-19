@@ -110,5 +110,23 @@
     <ClInclude Include="04. Tree\Skeleton\TreeView.h">
       <Filter>Source Files\04. Tree</Filter>
     </ClInclude>
+    <ClInclude Include="05. Explorer\Skeleton\ByteContainer.h">
+      <Filter>Source Files\05. Explorer</Filter>
+    </ClInclude>
+    <ClInclude Include="05. Explorer\Skeleton\File.h">
+      <Filter>Source Files\05. Explorer</Filter>
+    </ClInclude>
+    <ClInclude Include="05. Explorer\Skeleton\Directory.h">
+      <Filter>Source Files\05. Explorer</Filter>
+    </ClInclude>
+    <ClInclude Include="05. Explorer\Skeleton\TreeView.h">
+      <Filter>Source Files\05. Explorer</Filter>
+    </ClInclude>
+    <ClInclude Include="05. Explorer\Skeleton\Explorer.h">
+      <Filter>Source Files\05. Explorer</Filter>
+    </ClInclude>
+    <ClInclude Include="05. Explorer\Skeleton\ExplorerMain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\01 MaxSumArray">
+      <UniqueIdentifier>{40491795-e68f-4cdc-a9fd-a4bbd5c3485a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\02 IndexedSet">
+      <UniqueIdentifier>{655c2187-eb5a-4867-b166-a513be1b1120}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\03 Extractor">
+      <UniqueIdentifier>{6e4a0c91-4cc9-4746-b323-72ab87941b62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\04 Word">
+      <UniqueIdentifier>{1b4f9873-69f9-419d-88fc-a841d85d6e9b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ExecRule350AndInheritancePolymorphism.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="01. MaxSumArray\Skeleton\MaxSumArrayMain.cpp">
+      <Filter>Source Files\01 MaxSumArray</Filter>
+    </ClCompile>
+    <ClCompile Include="02. IndexedSet\Skeleton\main.cpp">
+      <Filter>Source Files\02 IndexedSet</Filter>
+    </ClCompile>
+    <ClCompile Include="03. Extractor\Skeleton\ExtractorMain.cpp">
+      <Filter>Source Files\03 Extractor</Filter>
+    </ClCompile>
+    <ClCompile Include="04. Word\Skeleton\WordSkeleton.cpp">
+      <Filter>Source Files\04 Word</Filter>
+    </ClCompile>
+    <ClCompile Include="02. IndexedSet\Skeleton\IndexedSet.cpp">
+      <Filter>Source Files\02 IndexedSet</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="02. IndexedSet\Skeleton\IndexedSet.h">
+      <Filter>Source Files\02 IndexedSet</Filter>
+    </ClInclude>
+    <ClInclude Include="03. Extractor\Skeleton\BufferedExtractor.h">
+      <Filter>Source Files\03 Extractor</Filter>
+    </ClInclude>
+    <ClInclude Include="03. Extractor\Skeleton\Extractor.h">
+      <Filter>Source Files\03 Extractor</Filter>
+    </ClInclude>
+    <ClInclude Include="04. Word\Skeleton\CommandInterface.h">
+      <Filter>Source Files\04 Word</Filter>
+    </ClInclude>
+    <ClInclude Include="04. Word\Skeleton\TextTransform.h">
+      <Filter>Source Files\04 Word</Filter>
+    </ClInclude>
+    <ClInclude Include="01. MaxSumArray\Skeleton\Array.h">
+      <Filter>Source Files\01 MaxSumArray</Filter>
+    </ClInclude>
+    <ClInclude Include="03. Extractor\Skeleton\ExtractorInitialization.h">
+      <Filter>Source Files\03 Extractor</Filter>
+    </ClInclude>
+    <ClInclude Include="04. Word\Skeleton\Initialization.h">
+      <Filter>Source Files\04 Word</Filter>
+    </ClInclude>
+    <ClInclude Include="04. Word\Skeleton\AdvancedInterface.h">
+      <Filter>Source Files\04 Word</Filter>
+    </ClInclude>
+    <ClInclude Include="04. Word\Skeleton\Cut.h">
+      <Filter>Source Files\04 Word</Filter>
+    </ClInclude>
+    <ClInclude Include="04. Word\Skeleton\Paste.h">
+      <Filter>Source Files\04 Word</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

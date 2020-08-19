@@ -1,0 +1,2 @@
+C:\Users\Viktor\source\repos\ExecRule350AndInheritancePolymorphism\Debug\ExecRule350AndInheritancePolymorphism.exe
+C:\Users\Viktor\source\repos\ExecRule350AndInheritancePolymorphism\Debug\ExecRule350AndInheritancePolymorphism.pdb
