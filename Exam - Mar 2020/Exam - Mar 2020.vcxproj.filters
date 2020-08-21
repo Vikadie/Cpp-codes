@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\01. StringConcatenator">
+      <UniqueIdentifier>{66b0a3f7-af3d-4557-8c81-983b405d1701}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\02. MemoryMonitor">
+      <UniqueIdentifier>{6d6fc5e2-14b7-4869-a630-b5d482620bf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\03. Snake">
+      <UniqueIdentifier>{5d80bccf-e5e5-4315-8994-7bf82fa1cad1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\04. PistolRound">
+      <UniqueIdentifier>{0cd79684-3c31-4c8f-b98e-b843fb3d4569}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Exam - Mar 2020.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="01.StringConcatenator\main.cpp">
+      <Filter>Source Files\01. StringConcatenator</Filter>
+    </ClCompile>
+    <ClCompile Include="01.StringConcatenator\StringConcatenator.cpp">
+      <Filter>Source Files\01. StringConcatenator</Filter>
+    </ClCompile>
+    <ClCompile Include="02.MemoryMonitor\CommandExecutor.cpp">
+      <Filter>Source Files\02. MemoryMonitor</Filter>
+    </ClCompile>
+    <ClCompile Include="02.MemoryMonitor\main.cpp">
+      <Filter>Source Files\02. MemoryMonitor</Filter>
+    </ClCompile>
+    <ClCompile Include="02.MemoryMonitor\MemoryMonitor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="03.Snake\CommandExecutor.cpp">
+      <Filter>Source Files\03. Snake</Filter>
+    </ClCompile>
+    <ClCompile Include="03.Snake\Field.cpp">
+      <Filter>Source Files\03. Snake</Filter>
+    </ClCompile>
+    <ClCompile Include="03.Snake\main.cpp">
+      <Filter>Source Files\03. Snake</Filter>
+    </ClCompile>
+    <ClCompile Include="03.Snake\Snake.cpp">
+      <Filter>Source Files\03. Snake</Filter>
+    </ClCompile>
+    <ClCompile Include="04.PistolRound\main.cpp">
+      <Filter>Source Files\04. PistolRound</Filter>
+    </ClCompile>
+    <ClCompile Include="04.PistolRound\Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="04.PistolRound\Glock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="04.PistolRound\DesertEagle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="01.StringConcatenator\Defines.h">
+      <Filter>Source Files\01. StringConcatenator</Filter>
+    </ClInclude>
+    <ClInclude Include="01.StringConcatenator\StringConcatenator.h">
+      <Filter>Source Files\01. StringConcatenator</Filter>
+    </ClInclude>
+    <ClInclude Include="02.MemoryMonitor\CommandExecutor.h">
+      <Filter>Source Files\02. MemoryMonitor</Filter>
+    </ClInclude>
+    <ClInclude Include="02.MemoryMonitor\Defines.h">
+      <Filter>Source Files\02. MemoryMonitor</Filter>
+    </ClInclude>
+    <ClInclude Include="02.MemoryMonitor\MemoryMonitor.h">
+      <Filter>Source Files\02. MemoryMonitor</Filter>
+    </ClInclude>
+    <ClInclude Include="02.MemoryMonitor\Structs.h">
+      <Filter>Source Files\02. MemoryMonitor</Filter>
+    </ClInclude>
+    <ClInclude Include="03.Snake\CommandExecutor.h">
+      <Filter>Source Files\03. Snake</Filter>
+    </ClInclude>
+    <ClInclude Include="03.Snake\Defines.h">
+      <Filter>Source Files\03. Snake</Filter>
+    </ClInclude>
+    <ClInclude Include="03.Snake\Field.h">
+      <Filter>Source Files\03. Snake</Filter>
+    </ClInclude>
+    <ClInclude Include="03.Snake\Snake.h">
+      <Filter>Source Files\03. Snake</Filter>
+    </ClInclude>
+    <ClInclude Include="03.Snake\Structs.h">
+      <Filter>Source Files\03. Snake</Filter>
+    </ClInclude>
+    <ClInclude Include="03.Snake\Func.h">
+      <Filter>Source Files\03. Snake</Filter>
+    </ClInclude>
+    <ClInclude Include="04.PistolRound\Defines.h">
+      <Filter>Source Files\04. PistolRound</Filter>
+    </ClInclude>
+    <ClInclude Include="04.PistolRound\DesertEagle.h">
+      <Filter>Source Files\04. PistolRound</Filter>
+    </ClInclude>
+    <ClInclude Include="04.PistolRound\Glock.h">
+      <Filter>Source Files\04. PistolRound</Filter>
+    </ClInclude>
+    <ClInclude Include="04.PistolRound\Pistol.h">
+      <Filter>Source Files\04. PistolRound</Filter>
+    </ClInclude>
+    <ClInclude Include="04.PistolRound\Player.h">
+      <Filter>Source Files\04. PistolRound</Filter>
+    </ClInclude>
+    <ClInclude Include="04.PistolRound\Structs.h">
+      <Filter>Source Files\04. PistolRound</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
