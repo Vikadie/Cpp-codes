@@ -60,14 +60,14 @@
     <ClCompile Include="04.PistolRound\main.cpp">
       <Filter>Source Files\04. PistolRound</Filter>
     </ClCompile>
-    <ClCompile Include="04.PistolRound\Player.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="04.PistolRound\Glock.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\04. PistolRound</Filter>
+    </ClCompile>
+    <ClCompile Include="04.PistolRound\Player.cpp">
+      <Filter>Source Files\04. PistolRound</Filter>
     </ClCompile>
     <ClCompile Include="04.PistolRound\DesertEagle.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\04. PistolRound</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

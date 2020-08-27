@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\01 Census">
+      <UniqueIdentifier>{0dab43cd-151d-497f-8898-c9f0000a6290}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\02 Differences">
+      <UniqueIdentifier>{0d91ed0a-33ea-4a9a-91a0-b1b3f41aec53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\03 Range">
+      <UniqueIdentifier>{237f48ce-a58e-4e32-a745-ac602a06e6c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\04 Calculator">
+      <UniqueIdentifier>{38993667-79a2-4105-b8d1-8f830d52a64c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Exam Preparation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="01 Census_Skeleton\CensusMain.cpp">
+      <Filter>Source Files\01 Census</Filter>
+    </ClCompile>
+    <ClCompile Include="02 Differences Skeleton\ChangesMain.cpp">
+      <Filter>Source Files\02 Differences</Filter>
+    </ClCompile>
+    <ClCompile Include="03 Range Skeleton\RangeMain.cpp">
+      <Filter>Source Files\03 Range</Filter>
+    </ClCompile>
+    <ClCompile Include="03 Range Skeleton\Range.cpp">
+      <Filter>Source Files\03 Range</Filter>
+    </ClCompile>
+    <ClCompile Include="04 Calculator Skeleton\CalculatorMain.cpp">
+      <Filter>Source Files\04 Calculator</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="01 Census_Skeleton\City.h">
+      <Filter>Source Files\01 Census</Filter>
+    </ClInclude>
+    <ClInclude Include="01 Census_Skeleton\CityUtils.h">
+      <Filter>Source Files\01 Census</Filter>
+    </ClInclude>
+    <ClInclude Include="02 Differences Skeleton\City.h">
+      <Filter>Source Files\02 Differences</Filter>
+    </ClInclude>
+    <ClInclude Include="02 Differences Skeleton\Includes.h">
+      <Filter>Source Files\02 Differences</Filter>
+    </ClInclude>
+    <ClInclude Include="03 Range Skeleton\Range.h">
+      <Filter>Source Files\03 Range</Filter>
+    </ClInclude>
+    <ClInclude Include="04 Calculator Skeleton\CalculationEngine.h">
+      <Filter>Source Files\04 Calculator</Filter>
+    </ClInclude>
+    <ClInclude Include="04 Calculator Skeleton\InputInterpreter.h">
+      <Filter>Source Files\04 Calculator</Filter>
+    </ClInclude>
+    <ClInclude Include="04 Calculator Skeleton\MultiplicationOperation.h">
+      <Filter>Source Files\04 Calculator</Filter>
+    </ClInclude>
+    <ClInclude Include="04 Calculator Skeleton\Operation.h">
+      <Filter>Source Files\04 Calculator</Filter>
+    </ClInclude>
+    <ClInclude Include="04 Calculator Skeleton\Extensions.h">
+      <Filter>Source Files\04 Calculator</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
