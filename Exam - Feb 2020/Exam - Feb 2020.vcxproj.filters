@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\01.Statistics">
+      <UniqueIdentifier>{e588e418-f022-48e2-aecd-40018e353f6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\02.ArrayTrouble">
+      <UniqueIdentifier>{a6c6bbaf-3926-482e-a577-ea4106a21bd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\03.MemoryPool">
+      <UniqueIdentifier>{6ae877b9-68df-459d-9a2b-5d91dcd42720}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\04.StarcraftIII">
+      <UniqueIdentifier>{faee1517-b7ef-4ad1-85c7-40749c0f62c9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Exam - Feb 2020.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="01.Statistics\main.cpp">
+      <Filter>Source Files\01.Statistics</Filter>
+    </ClCompile>
+    <ClCompile Include="01.Statistics\Statistics.cpp">
+      <Filter>Source Files\01.Statistics</Filter>
+    </ClCompile>
+    <ClCompile Include="02.ArrayTrouble\BrokenArray.cpp">
+      <Filter>Source Files\02.ArrayTrouble</Filter>
+    </ClCompile>
+    <ClCompile Include="02.ArrayTrouble\CommandExecutor.cpp">
+      <Filter>Source Files\02.ArrayTrouble</Filter>
+    </ClCompile>
+    <ClCompile Include="02.ArrayTrouble\main.cpp">
+      <Filter>Source Files\02.ArrayTrouble</Filter>
+    </ClCompile>
+    <ClCompile Include="03.MemoryPool\CommandExecutor.cpp">
+      <Filter>Source Files\03.MemoryPool</Filter>
+    </ClCompile>
+    <ClCompile Include="03.MemoryPool\main.cpp">
+      <Filter>Source Files\03.MemoryPool</Filter>
+    </ClCompile>
+    <ClCompile Include="02.ArrayTrouble\FixedArray.cpp">
+      <Filter>Source Files\02.ArrayTrouble</Filter>
+    </ClCompile>
+    <ClCompile Include="03.MemoryPool\MemoryPool.cpp">
+      <Filter>Source Files\03.MemoryPool</Filter>
+    </ClCompile>
+    <ClCompile Include="04.StarcraftIII\AirShip.cpp">
+      <Filter>Source Files\04.StarcraftIII</Filter>
+    </ClCompile>
+    <ClCompile Include="04.StarcraftIII\BattleField.cpp">
+      <Filter>Source Files\04.StarcraftIII</Filter>
+    </ClCompile>
+    <ClCompile Include="04.StarcraftIII\main.cpp">
+      <Filter>Source Files\04.StarcraftIII</Filter>
+    </ClCompile>
+    <ClCompile Include="04.StarcraftIII\BattleCruser.cpp">
+      <Filter>Source Files\04.StarcraftIII</Filter>
+    </ClCompile>
+    <ClCompile Include="04.StarcraftIII\Carrier.cpp">
+      <Filter>Source Files\04.StarcraftIII</Filter>
+    </ClCompile>
+    <ClCompile Include="04.StarcraftIII\Phoenix.cpp">
+      <Filter>Source Files\04.StarcraftIII</Filter>
+    </ClCompile>
+    <ClCompile Include="04.StarcraftIII\ProtossAirShip.cpp">
+      <Filter>Source Files\04.StarcraftIII</Filter>
+    </ClCompile>
+    <ClCompile Include="04.StarcraftIII\TerranAirShip.cpp">
+      <Filter>Source Files\04.StarcraftIII</Filter>
+    </ClCompile>
+    <ClCompile Include="04.StarcraftIII\Viking.cpp">
+      <Filter>Source Files\04.StarcraftIII</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="01.Statistics\Structs.h">
+      <Filter>Source Files\01.Statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="01.Statistics\Statistics.h">
+      <Filter>Source Files\01.Statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="02.ArrayTrouble\BrokenArray.h">
+      <Filter>Source Files\02.ArrayTrouble</Filter>
+    </ClInclude>
+    <ClInclude Include="02.ArrayTrouble\CommandExecutor.h">
+      <Filter>Source Files\02.ArrayTrouble</Filter>
+    </ClInclude>
+    <ClInclude Include="02.ArrayTrouble\Defines.h">
+      <Filter>Source Files\02.ArrayTrouble</Filter>
+    </ClInclude>
+    <ClInclude Include="02.ArrayTrouble\FixedArray.h">
+      <Filter>Source Files\02.ArrayTrouble</Filter>
+    </ClInclude>
+    <ClInclude Include="03.MemoryPool\CommandExecutor.h">
+      <Filter>Source Files\03.MemoryPool</Filter>
+    </ClInclude>
+    <ClInclude Include="03.MemoryPool\Defines.h">
+      <Filter>Source Files\03.MemoryPool</Filter>
+    </ClInclude>
+    <ClInclude Include="03.MemoryPool\MemoryPool.h">
+      <Filter>Source Files\03.MemoryPool</Filter>
+    </ClInclude>
+    <ClInclude Include="03.MemoryPool\Structs.h">
+      <Filter>Source Files\03.MemoryPool</Filter>
+    </ClInclude>
+    <ClInclude Include="04.StarcraftIII\AirShip.h">
+      <Filter>Source Files\04.StarcraftIII</Filter>
+    </ClInclude>
+    <ClInclude Include="04.StarcraftIII\BattleCruser.h">
+      <Filter>Source Files\04.StarcraftIII</Filter>
+    </ClInclude>
+    <ClInclude Include="04.StarcraftIII\BattleField.h">
+      <Filter>Source Files\04.StarcraftIII</Filter>
+    </ClInclude>
+    <ClInclude Include="04.StarcraftIII\Carrier.h">
+      <Filter>Source Files\04.StarcraftIII</Filter>
+    </ClInclude>
+    <ClInclude Include="04.StarcraftIII\Phoenix.h">
+      <Filter>Source Files\04.StarcraftIII</Filter>
+    </ClInclude>
+    <ClInclude Include="04.StarcraftIII\ProtossAirShip.h">
+      <Filter>Source Files\04.StarcraftIII</Filter>
+    </ClInclude>
+    <ClInclude Include="04.StarcraftIII\TerranAirShip.h">
+      <Filter>Source Files\04.StarcraftIII</Filter>
+    </ClInclude>
+    <ClInclude Include="04.StarcraftIII\Viking.h">
+      <Filter>Source Files\04.StarcraftIII</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
