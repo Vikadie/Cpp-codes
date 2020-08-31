@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\01.Bytes">
+      <UniqueIdentifier>{c5dd1cf9-7ffb-43a9-8819-d3d78818e6c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\02.Iterator">
+      <UniqueIdentifier>{de9ac3c4-9362-4dd8-a40a-38a4f246873d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\03.UnitPtr">
+      <UniqueIdentifier>{759ab111-3633-447f-b49e-8e845eea7f38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\04.Nodes">
+      <UniqueIdentifier>{ea5f3add-7139-4ec6-9ac1-0b6869c2026c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Exam 2(2 Dec 2018).cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="01.Bytes\BytesMain.cpp">
+      <Filter>Source Files\01.Bytes</Filter>
+    </ClCompile>
+    <ClCompile Include="02.Iterator\IteratorMain.cpp">
+      <Filter>Source Files\02.Iterator</Filter>
+    </ClCompile>
+    <ClCompile Include="03.UnitPtr\Group.cpp">
+      <Filter>Source Files\03.UnitPtr</Filter>
+    </ClCompile>
+    <ClCompile Include="03.UnitPtr\Unit.cpp">
+      <Filter>Source Files\03.UnitPtr</Filter>
+    </ClCompile>
+    <ClCompile Include="03.UnitPtr\UnitPtrMain.cpp">
+      <Filter>Source Files\03.UnitPtr</Filter>
+    </ClCompile>
+    <ClCompile Include="03.UnitPtr\UnitPtr.cpp">
+      <Filter>Source Files\03.UnitPtr</Filter>
+    </ClCompile>
+    <ClCompile Include="04.Nodes\NodesMain.cpp">
+      <Filter>Source Files\04.Nodes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="01.Bytes\SerializationUtils.h">
+      <Filter>Source Files\01.Bytes</Filter>
+    </ClInclude>
+    <ClInclude Include="02.Iterator\StreamInputIterator.h">
+      <Filter>Source Files\02.Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="03.UnitPtr\Group.h">
+      <Filter>Source Files\03.UnitPtr</Filter>
+    </ClInclude>
+    <ClInclude Include="03.UnitPtr\Unit.h">
+      <Filter>Source Files\03.UnitPtr</Filter>
+    </ClInclude>
+    <ClInclude Include="03.UnitPtr\UnitPtr.h">
+      <Filter>Source Files\03.UnitPtr</Filter>
+    </ClInclude>
+    <ClInclude Include="04.Nodes\InputNode.h">
+      <Filter>Source Files\04.Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="04.Nodes\Node.h">
+      <Filter>Source Files\04.Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="04.Nodes\NodeNetwork.h">
+      <Filter>Source Files\04.Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="04.Nodes\OutputNode.h">
+      <Filter>Source Files\04.Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="04.Nodes\DigitsToIntNode.h">
+      <Filter>Source Files\04.Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="04.Nodes\ReverseNode.h">
+      <Filter>Source Files\04.Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="04.Nodes\SumNode.h">
+      <Filter>Source Files\04.Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="04.Nodes\FilterNode.h">
+      <Filter>Source Files\04.Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="04.Nodes\NodeBase.h">
+      <Filter>Source Files\04.Nodes</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
