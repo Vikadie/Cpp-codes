@@ -41,38 +41,25 @@ ErrorCode MemoryPool::requestMemory(MemoryNode& outNode)
 
 void MemoryPool::releaseMemory(const MemoryNode& outNode)
 {
-	int memoryToRelease = outNode.size;
-	for (int i = 0; i < _MEMORY_POOL_SIZE; i++)
-	{
-		if (_isMemoryBufferOccupied[i] == true) {
-			_isMemoryBufferOccupied[i] = false;
-			memoryToRelease--;
-		}
-		if (memoryToRelease == 0)
-			break;
-	}
+	for (int i = outNode.bufferStartIndex; i < outNode.size + outNode.bufferStartIndex; i++)
+		_isMemoryBufferOccupied[i] = false;
 }
 
 void MemoryPool::zeroMemoryValue(const MemoryNode& node)
 {
-	int memoryToRelease = node.size;
+	int memoryToZero = node.size + node.bufferStartIndex;
 	
-	for (int i = node.bufferStartIndex; i < _MEMORY_POOL_SIZE; i++)
+	for (int i = node.bufferStartIndex; i < memoryToZero; i++)
 	{
-		if (_isMemoryBufferOccupied[i] == true) {
-			_isMemoryBufferOccupied[i] = false;
-			*(_memoryBuffer + i) = 0;
-			memoryToRelease--;
-		}
-		if (memoryToRelease == 0)
-			break;
+		_isMemoryBufferOccupied[i] = false;
+		_memoryBuffer[i] = 0;		
 	}
 }
 
 void MemoryPool::occupyMemory(const MemoryNode& node)
 {
 	for (int i = 0; i < node.size; i++) {
-		*(_memoryBuffer + i + node.bufferStartIndex) = node.memory[i];
+		_memoryBuffer[i + node.bufferStartIndex] = node.memory[i];
 		_isMemoryBufferOccupied[i + node.bufferStartIndex] = true;
 	}
 }

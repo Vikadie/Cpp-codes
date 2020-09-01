@@ -1,0 +1,6 @@
+﻿  Matrix.cpp
+C:\Users\Viktor\source\repos\Exam - Apr 2019\04. Overloading Madness\Matrix.cpp(26,30): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Viktor\source\repos\Exam - Apr 2019\04. Overloading Madness\Matrix.cpp(28,34): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Viktor\source\repos\Exam - Apr 2019\04. Overloading Madness\Matrix.cpp(46,30): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Viktor\source\repos\Exam - Apr 2019\04. Overloading Madness\Matrix.cpp(48,34): warning C4018: '<': signed/unsigned mismatch
+  Exam - Apr 2019.vcxproj -> C:\Users\Viktor\source\repos\Exam - Apr 2019\Debug\Exam - Apr 2019.exe

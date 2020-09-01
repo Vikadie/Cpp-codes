@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\01. Cipher">
+      <UniqueIdentifier>{320bd3fe-6cb9-48d6-aecf-082fd258599a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\02. Memory Allocator Reforged">
+      <UniqueIdentifier>{b9b8c4a4-3dfc-4f6d-9bcb-79cbd51552b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\03. Memory Nigthmare">
+      <UniqueIdentifier>{cf9ec238-b264-4b8e-8069-30fcb0c8a53e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\04. Overloading Madness">
+      <UniqueIdentifier>{ad51617f-3624-43bb-86b3-86c91a9ee268}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Exam - Apr 2019.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="01. Cipher\main.cpp">
+      <Filter>Source Files\01. Cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="01. Cipher\Source.cpp">
+      <Filter>Source Files\01. Cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="02. Memory Allocator Reforged\main.cpp">
+      <Filter>Source Files\02. Memory Allocator Reforged</Filter>
+    </ClCompile>
+    <ClCompile Include="02. Memory Allocator Reforged\executeCommand.cpp">
+      <Filter>Source Files\02. Memory Allocator Reforged</Filter>
+    </ClCompile>
+    <ClCompile Include="03. Memory NightMare\main.cpp">
+      <Filter>Source Files\03. Memory Nigthmare</Filter>
+    </ClCompile>
+    <ClCompile Include="03. Memory NightMare\Source.cpp">
+      <Filter>Source Files\03. Memory Nigthmare</Filter>
+    </ClCompile>
+    <ClCompile Include="04. Overloading Madness\main.cpp">
+      <Filter>Source Files\04. Overloading Madness</Filter>
+    </ClCompile>
+    <ClCompile Include="04. Overloading Madness\Matrix.cpp">
+      <Filter>Source Files\04. Overloading Madness</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="01. Cipher\Defines.h">
+      <Filter>Source Files\01. Cipher</Filter>
+    </ClInclude>
+    <ClInclude Include="02. Memory Allocator Reforged\Defines.h">
+      <Filter>Source Files\02. Memory Allocator Reforged</Filter>
+    </ClInclude>
+    <ClInclude Include="03. Memory NightMare\Defines.h">
+      <Filter>Source Files\03. Memory Nigthmare</Filter>
+    </ClInclude>
+    <ClInclude Include="03. Memory NightMare\MemoryContainer.h">
+      <Filter>Source Files\03. Memory Nigthmare</Filter>
+    </ClInclude>
+    <ClInclude Include="03. Memory NightMare\ContainerInterface.h">
+      <Filter>Source Files\03. Memory Nigthmare</Filter>
+    </ClInclude>
+    <ClInclude Include="04. Overloading Madness\Matrix.h">
+      <Filter>Source Files\04. Overloading Madness</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
