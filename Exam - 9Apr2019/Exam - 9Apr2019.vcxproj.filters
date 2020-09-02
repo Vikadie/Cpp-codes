@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\01.Memory Allocator">
+      <UniqueIdentifier>{ec385901-023c-44e9-beb7-862a4899baa2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\03.Hardware Store">
+      <UniqueIdentifier>{217c2f6b-2546-4687-af3f-7c077f25742f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\04.Warcraft IV">
+      <UniqueIdentifier>{f6787399-6a8a-4fa1-84fc-2c23802dd9ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\02.Bytes Parsing">
+      <UniqueIdentifier>{d12ae10d-d945-455c-a345-15be0b63c84e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Exam - 9Apr2019.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="01.MemoryAllocator\main.cpp">
+      <Filter>Source Files\01.Memory Allocator</Filter>
+    </ClCompile>
+    <ClCompile Include="01.MemoryAllocator\Source.cpp">
+      <Filter>Source Files\01.Memory Allocator</Filter>
+    </ClCompile>
+    <ClCompile Include="02.BytesParsing\main.cpp">
+      <Filter>Source Files\02.Bytes Parsing</Filter>
+    </ClCompile>
+    <ClCompile Include="02.BytesParsing\SourceParse.cpp">
+      <Filter>Source Files\02.Bytes Parsing</Filter>
+    </ClCompile>
+    <ClCompile Include="03.HardwareStore\main.cpp">
+      <Filter>Source Files\03.Hardware Store</Filter>
+    </ClCompile>
+    <ClCompile Include="03.HardwareStore\Laptop.cpp">
+      <Filter>Source Files\03.Hardware Store</Filter>
+    </ClCompile>
+    <ClCompile Include="03.HardwareStore\Store.cpp">
+      <Filter>Source Files\03.Hardware Store</Filter>
+    </ClCompile>
+    <ClCompile Include="04.WarcraftIV\main.cpp">
+      <Filter>Source Files\04.Warcraft IV</Filter>
+    </ClCompile>
+    <ClCompile Include="04.WarcraftIV\Archmage.cpp">
+      <Filter>Source Files\04.Warcraft IV</Filter>
+    </ClCompile>
+    <ClCompile Include="04.WarcraftIV\DeathKnight.cpp">
+      <Filter>Source Files\04.Warcraft IV</Filter>
+    </ClCompile>
+    <ClCompile Include="04.WarcraftIV\DrawRanger.cpp">
+      <Filter>Source Files\04.Warcraft IV</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="01.MemoryAllocator\Defines.h">
+      <Filter>Source Files\01.Memory Allocator</Filter>
+    </ClInclude>
+    <ClInclude Include="02.BytesParsing\Defines.h">
+      <Filter>Source Files\02.Bytes Parsing</Filter>
+    </ClInclude>
+    <ClInclude Include="03.HardwareStore\Hardware.h">
+      <Filter>Source Files\03.Hardware Store</Filter>
+    </ClInclude>
+    <ClInclude Include="03.HardwareStore\Laptop.h">
+      <Filter>Source Files\03.Hardware Store</Filter>
+    </ClInclude>
+    <ClInclude Include="03.HardwareStore\Store.h">
+      <Filter>Source Files\03.Hardware Store</Filter>
+    </ClInclude>
+    <ClInclude Include="04.WarcraftIV\Archmage.h">
+      <Filter>Source Files\04.Warcraft IV</Filter>
+    </ClInclude>
+    <ClInclude Include="04.WarcraftIV\DeathKnight.h">
+      <Filter>Source Files\04.Warcraft IV</Filter>
+    </ClInclude>
+    <ClInclude Include="04.WarcraftIV\Defines.h">
+      <Filter>Source Files\04.Warcraft IV</Filter>
+    </ClInclude>
+    <ClInclude Include="04.WarcraftIV\DrawRanger.h">
+      <Filter>Source Files\04.Warcraft IV</Filter>
+    </ClInclude>
+    <ClInclude Include="04.WarcraftIV\Hero.h">
+      <Filter>Source Files\04.Warcraft IV</Filter>
+    </ClInclude>
+    <ClInclude Include="04.WarcraftIV\Structs.h">
+      <Filter>Source Files\04.Warcraft IV</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
