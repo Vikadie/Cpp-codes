@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\01.Echo">
+      <UniqueIdentifier>{9fa6b408-7b90-4555-91fd-99800e059734}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\02.Notes">
+      <UniqueIdentifier>{868f61c4-83c4-464d-8687-0cfec1523c43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\03.Vectors">
+      <UniqueIdentifier>{43bd060a-0247-4c75-abce-769f98f3019f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\04.DivisibleBy45">
+      <UniqueIdentifier>{180e55c8-d8ec-40c2-95ba-39139e319bd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\05.Sequences">
+      <UniqueIdentifier>{b33ac4a0-cd8f-4a4a-b0c5-52f5d312ef0e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="01. Echo\Skeleton\ContactManagerUI.cpp">
+      <Filter>Source Files\01.Echo</Filter>
+    </ClCompile>
+    <ClCompile Include="01. Echo\Skeleton\EchoMain.cpp">
+      <Filter>Source Files\01.Echo</Filter>
+    </ClCompile>
+    <ClCompile Include="01. Echo\Skeleton\EmailContact.cpp">
+      <Filter>Source Files\01.Echo</Filter>
+    </ClCompile>
+    <ClCompile Include="02. Notes\Skeleton\NotesMain.cpp">
+      <Filter>Source Files\02.Notes</Filter>
+    </ClCompile>
+    <ClCompile Include="03. Vectors\Skeleton\VectorsMain.cpp">
+      <Filter>Source Files\03.Vectors</Filter>
+    </ClCompile>
+    <ClCompile Include="01. Echo\Skeleton\Echo.cpp">
+      <Filter>Source Files\01.Echo</Filter>
+    </ClCompile>
+    <ClCompile Include="04. DivisibleBy45\Skeleton\BigIntMain.cpp">
+      <Filter>Source Files\04.DivisibleBy45</Filter>
+    </ClCompile>
+    <ClCompile Include="05. Sequences\Skeleton\SequencesMain.cpp">
+      <Filter>Source Files\05.Sequences</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="01. Echo\Skeleton\ContactManagerUI.h">
+      <Filter>Source Files\01.Echo</Filter>
+    </ClInclude>
+    <ClInclude Include="01. Echo\Skeleton\EmailContact.h">
+      <Filter>Source Files\01.Echo</Filter>
+    </ClInclude>
+    <ClInclude Include="01. Echo\Skeleton\Echo.h">
+      <Filter>Source Files\01.Echo</Filter>
+    </ClInclude>
+    <ClInclude Include="02. Notes\Skeleton\NoteName.h">
+      <Filter>Source Files\02.Notes</Filter>
+    </ClInclude>
+    <ClInclude Include="02. Notes\Skeleton\SolfegeNoteNaming.h">
+      <Filter>Source Files\02.Notes</Filter>
+    </ClInclude>
+    <ClInclude Include="03. Vectors\Skeleton\Vector.h">
+      <Filter>Source Files\03.Vectors</Filter>
+    </ClInclude>
+    <ClInclude Include="03. Vectors\Skeleton\VectorComparisons.h">
+      <Filter>Source Files\03.Vectors</Filter>
+    </ClInclude>
+    <ClInclude Include="04. DivisibleBy45\Skeleton\BigInt.h">
+      <Filter>Source Files\04.DivisibleBy45</Filter>
+    </ClInclude>
+    <ClInclude Include="05. Sequences\Skeleton\Sequence.h">
+      <Filter>Source Files\05.Sequences</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

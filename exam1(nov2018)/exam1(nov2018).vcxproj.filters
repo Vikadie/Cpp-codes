@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\01.Strings">
+      <UniqueIdentifier>{dcbf8f19-f808-4b56-aea0-558c0b941bc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\02.MaxReader">
+      <UniqueIdentifier>{096596e8-5c28-4f71-84f1-41646df7df81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\03.Groups">
+      <UniqueIdentifier>{3d47a744-bd1d-4172-9fd3-e8a8287fc53a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\04.Terran">
+      <UniqueIdentifier>{3c2de22a-c8a1-4103-866c-c2bfaea86baa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="exam1(nov2018).cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="01.Strings\StringsMain.cpp">
+      <Filter>Source Files\01.Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="02.MaxReader\ReaderMain.cpp">
+      <Filter>Source Files\02.MaxReader</Filter>
+    </ClCompile>
+    <ClCompile Include="03.Groups\GroupsMain.cpp">
+      <Filter>Source Files\03.Groups</Filter>
+    </ClCompile>
+    <ClCompile Include="03.Groups\Unit.cpp">
+      <Filter>Source Files\03.Groups</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="01.Strings\DeserializeUtils.h">
+      <Filter>Source Files\01.Strings</Filter>
+    </ClInclude>
+    <ClInclude Include="02.MaxReader\Reader.h">
+      <Filter>Source Files\02.MaxReader</Filter>
+    </ClInclude>
+    <ClInclude Include="02.MaxReader\Max.h">
+      <Filter>Source Files\02.MaxReader</Filter>
+    </ClInclude>
+    <ClInclude Include="03.Groups\Group.h">
+      <Filter>Source Files\03.Groups</Filter>
+    </ClInclude>
+    <ClInclude Include="03.Groups\Unit.h">
+      <Filter>Source Files\03.Groups</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
