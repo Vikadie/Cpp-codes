@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\01.Sort">
+      <UniqueIdentifier>{95fcd46b-6921-4b3a-972d-ad2efa38afd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\02.SortPointers">
+      <UniqueIdentifier>{ca507c03-acb4-4034-ae93-87782b9a36f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\03.Duplicate">
+      <UniqueIdentifier>{bccc8eb1-180e-4d26-89bc-c10b091ebce2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Exercise on Pointers - again.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="01. Sort\Skeleton\SortCompanies.cpp">
+      <Filter>Source Files\01.Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="02. SortPointers\Skeleton\SortPointersMain.cpp">
+      <Filter>Source Files\02.SortPointers</Filter>
+    </ClCompile>
+    <ClCompile Include="03. Duplicates\Skeleton\DuplicatesMain.cpp">
+      <Filter>Source Files\03.Duplicate</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="01. Sort\Skeleton\Company.h">
+      <Filter>Source Files\01.Sort</Filter>
+    </ClInclude>
+    <ClInclude Include="02. SortPointers\Skeleton\Company.h">
+      <Filter>Source Files\02.SortPointers</Filter>
+    </ClInclude>
+    <ClInclude Include="02. SortPointers\Skeleton\SortBy.h">
+      <Filter>Source Files\02.SortPointers</Filter>
+    </ClInclude>
+    <ClInclude Include="03. Duplicates\Skeleton\Company.h">
+      <Filter>Source Files\03.Duplicate</Filter>
+    </ClInclude>
+    <ClInclude Include="03. Duplicates\Skeleton\RemoveDuplicates.h">
+      <Filter>Source Files\03.Duplicate</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

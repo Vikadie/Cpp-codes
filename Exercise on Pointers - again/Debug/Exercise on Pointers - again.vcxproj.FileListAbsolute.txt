@@ -1,0 +1,2 @@
+C:\Users\Viktor\source\repos\Exercise on Pointers - again\Debug\Exercise on Pointers - again.exe
+C:\Users\Viktor\source\repos\Exercise on Pointers - again\Debug\Exercise on Pointers - again.pdb
