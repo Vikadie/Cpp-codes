@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Task01">
+      <UniqueIdentifier>{ada7e222-0ab8-44ad-9a58-18b10062f231}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Task02">
+      <UniqueIdentifier>{e30e84ab-bc80-4133-a288-b983072b444e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Task03">
+      <UniqueIdentifier>{2af710c0-168b-44a6-81ab-9eeab1ddb75b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Exam 5Sept2020.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Magic Kingdom\main.cpp">
+      <Filter>Source Files\Task01</Filter>
+    </ClCompile>
+    <ClCompile Include="Discovery\main.cpp">
+      <Filter>Source Files\Task02</Filter>
+    </ClCompile>
+    <ClCompile Include="Tropico\Building.cpp">
+      <Filter>Source Files\Task03</Filter>
+    </ClCompile>
+    <ClCompile Include="Tropico\Tropico.cpp">
+      <Filter>Source Files\Task03</Filter>
+    </ClCompile>
+    <ClCompile Include="Tropico\Source.cpp">
+      <Filter>Source Files\Task03</Filter>
+    </ClCompile>
+    <ClCompile Include="Tropico\Palace.cpp">
+      <Filter>Source Files\Task03</Filter>
+    </ClCompile>
+    <ClCompile Include="Tropico\House.cpp">
+      <Filter>Source Files\Task03</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Magic Kingdom\Struct.h">
+      <Filter>Source Files\Task01</Filter>
+    </ClInclude>
+    <ClInclude Include="Magic Kingdom\MagicKingdom.h">
+      <Filter>Source Files\Task01</Filter>
+    </ClInclude>
+    <ClInclude Include="Discovery\Discovery.h">
+      <Filter>Source Files\Task02</Filter>
+    </ClInclude>
+    <ClInclude Include="Tropico\Building.h">
+      <Filter>Source Files\Task03</Filter>
+    </ClInclude>
+    <ClInclude Include="Tropico\House.h">
+      <Filter>Source Files\Task03</Filter>
+    </ClInclude>
+    <ClInclude Include="Tropico\Palace.h">
+      <Filter>Source Files\Task03</Filter>
+    </ClInclude>
+    <ClInclude Include="Tropico\Tropico.h">
+      <Filter>Source Files\Task03</Filter>
+    </ClInclude>
+    <ClInclude Include="Discovery\ScientificField.h">
+      <Filter>Source Files\Task02</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
